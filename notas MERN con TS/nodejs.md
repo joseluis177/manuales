@@ -52,7 +52,7 @@ npm install --save fs
 npm install --save https
 ~~~
 
-Para crear un servidor web https necesitamos los archivos de los certificados SSL (crt y key) para el dominio que vamos a utilizar o podemos crear un certificado de pruebas autofirmado con (OpenSSL)[https://www.openssl.org/] nada más para desarrollar nuestro servidor y na vez concluido y probado reemplazamos los archivos crt y key por los que correspondan al servidor donde vamos a desplegar el proyecto.
+Para crear un servidor web https necesitamos los archivos de los certificados SSL (crt y key) para el dominio que vamos a utilizar o podemos crear un certificado de pruebas autofirmado con [OpenSSL](https://www.openssl.org/) nada más para desarrollar nuestro servidor y na vez concluido y probado reemplazamos los archivos crt y key por los que correspondan al servidor donde vamos a desplegar el proyecto.
 
 Una vez creados los archivos del certificado autofirmado, los copiamos en la carpeta del proyecto: mi_certificado.crt y micertificado.key, (este último se puede convertir a .pem y funciona sin problema).
 
