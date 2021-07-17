@@ -56,7 +56,7 @@ Para crear un servidor web https necesitamos los archivos de los certificados SS
 
 Una vez creados los archivos del certificado autofirmado, los copiamos en la carpeta del proyecto: mi_certificado.crt y micertificado.key, (este último se puede convertir a .pem y funciona sin problema).
 
-
+[Como crear un certificado autofirmado](https://www.youtube.com/watch?v=KA0M0xqQ0F0&ab_channel=RodolfoBorja)
 
 ## Construcción del servicio
 Para la construcción del servicio vamos a arquitectar toda la estructura que nos permitira dar manejo a el funcionamiento de nuestra aplicación.
